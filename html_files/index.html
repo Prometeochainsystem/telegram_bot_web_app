@@ -18,17 +18,9 @@
 <body class="">
 
 <section id="top_sect" class="second">
-    <button id="main_btn" onclick="scanQrCode('order');">Scan QR of Order</button>
-    <button id="product_btn" onclick="scanQrCode();" style="display: none;">Scan QR of Product</button>
+    <button id="main_btn" onclick="DemoApp.scanQrCode('order');">Scan QR of Order</button>
+    <button id="product_btn" onclick="DemoApp.scanQrCode();" style="display: none;">Scan QR of Product</button>
 </section>
-
-<div id="order_info" class="hidden">
-    <h2>Order Information:</h2>
-    <p id="order_id"></p>
-    <h2>Select a Product:</h2>
-    <ul id="product_list"></ul>
-    <p id="product_selected"></p>
-</div>
 
 </body>
 </html>
