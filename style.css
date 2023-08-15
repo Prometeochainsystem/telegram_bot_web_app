@@ -5,50 +5,27 @@ body {
     background-color: #f0f0f0;
 }
 
-h2 {
-    margin-bottom: 10px;
-}
-
+ /* Adjust the style for the top section */
 #top_sect {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2a5caa;
 }
 
-#product_list {
-    text-align: center;
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
+/* Style for the "Scan QR" button */
+#main_btn {
     padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #2a5caa;
+    border: none;
     cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
-.hidden {
-    display: none;
-}
-
-#order_info {
-    text-align: center;
-    margin-top: 20px;
-    background-color: #f0f0f0;
-    padding: 20px;
+#main_btn:hover {
+    background-color: #ddd;
 }
